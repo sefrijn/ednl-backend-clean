@@ -242,7 +242,7 @@
             "name": "hipsy",
             "aria-label": "",
             "type": "group",
-            "instructions": "",
+            "instructions": "Je kan je aankomende events automatisch tonen op de agenda van deze site. Dit werkt via een koppeling met Hipsy.",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -280,7 +280,7 @@
                     "name": "api_key",
                     "aria-label": "",
                     "type": "password",
-                    "instructions": "<a href=\"https:\/\/hipsy.nl\/app\/api-keys\" target=\"_blank\">Klik hier om te maken op Hipsy<\/a>",
+                    "instructions": "<a href=\"https:\/\/hipsy.nl\/app\/api-keys\" target=\"_blank\">Klik hier om een API key te maken op Hipsy<\/a>. Plak daarna hieronder de API key (een vreemde reeks van cijfers en letters).",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -318,5 +318,5 @@
     "graphql_field_name": "acfOrganisatieGegevens",
     "map_graphql_types_from_location_rules": 0,
     "graphql_types": "",
-    "modified": 1682943127
+    "modified": 1682952121
 }
