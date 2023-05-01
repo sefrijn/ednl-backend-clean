@@ -17,4 +17,4 @@ jobs:
           server: ftp.ecstaticdance.nl
           username: edsefrijn@ecstaticdance.nl
           password: ${{ secrets.ftp_password }}
-          server-dir: /public_html/wp/wp-content/themes/ednl2/
+          server-dir: /public_html/wp/wp-content/themes/ednl/
