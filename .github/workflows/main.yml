@@ -1,0 +1,20 @@
+name: Deploy
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy 🚀
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@main
+      - name: Sync files to hosting
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ftp.ecstaticdance.nl
+          username: edsefrijn@ecstaticdance.nl
+          password: ${{ secrets.ftp_password }}
+          server-dir: /public_html/wp/wp-content/themes/ednl/
