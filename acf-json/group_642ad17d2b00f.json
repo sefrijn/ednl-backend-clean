@@ -237,11 +237,11 @@
             ]
         },
         {
-            "key": "field_6435ddc3e652c",
-            "label": "Hipsy ID",
-            "name": "hipsy_id",
+            "key": "field_644faba13b5af",
+            "label": "Hipsy",
+            "name": "hipsy",
             "aria-label": "",
-            "type": "text",
+            "type": "group",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -251,11 +251,49 @@
                 "id": ""
             },
             "show_in_graphql": 1,
-            "default_value": "",
-            "maxlength": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": ""
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_6435ddc3e652c",
+                    "label": "Organisatie Slug",
+                    "name": "slug",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "Login op Hipsy en ga naar je <a href=\"https:\/\/hipsy.nl\/app\/organisation\/profile\" target=\"_blank\">Organisatie Profiel<\/a>. Helemaal onderin vind je je Hipsy website adres. Kopieer het laatste deel wat je zelf kan invullen (dus zonder https:\/\/hipsy.nl\/ )",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "show_in_graphql": 1,
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "field_644fac518373a",
+                    "label": "API key",
+                    "name": "api_key",
+                    "aria-label": "",
+                    "type": "password",
+                    "instructions": "<a href=\"https:\/\/hipsy.nl\/app\/api-keys\" target=\"_blank\">Klik hier om te maken op Hipsy<\/a>",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "show_in_graphql": 1,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                }
+            ]
         }
     ],
     "location": [
@@ -280,5 +318,5 @@
     "graphql_field_name": "acfOrganisatieGegevens",
     "map_graphql_types_from_location_rules": 0,
     "graphql_types": "",
-    "modified": 1682333823
+    "modified": 1682943127
 }
