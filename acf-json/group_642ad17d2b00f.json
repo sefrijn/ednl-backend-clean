@@ -72,7 +72,7 @@
                     "aria-label": "",
                     "type": "text",
                     "instructions": "",
-                    "required": 0,
+                    "required": 1,
                     "conditional_logic": 0,
                     "wrapper": {
                         "width": "",
@@ -94,7 +94,7 @@
                     "aria-label": "",
                     "type": "textarea",
                     "instructions": "",
-                    "required": 0,
+                    "required": 1,
                     "conditional_logic": 0,
                     "wrapper": {
                         "width": "",
@@ -318,5 +318,5 @@
     "graphql_field_name": "acfOrganisatieGegevens",
     "map_graphql_types_from_location_rules": 0,
     "graphql_types": "",
-    "modified": 1682952121
+    "modified": 1683630542
 }
