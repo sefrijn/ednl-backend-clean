@@ -93,7 +93,7 @@
                     "name": "adres",
                     "aria-label": "",
                     "type": "textarea",
-                    "instructions": "",
+                    "instructions": "Hou het kort. Max. 160 karakters lang",
                     "required": 1,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -103,7 +103,7 @@
                     },
                     "show_in_graphql": 1,
                     "default_value": "",
-                    "maxlength": "",
+                    "maxlength": 160,
                     "rows": 4,
                     "placeholder": "",
                     "new_lines": "",
@@ -318,5 +318,5 @@
     "graphql_field_name": "acfOrganisatieGegevens",
     "map_graphql_types_from_location_rules": 0,
     "graphql_types": "",
-    "modified": 1683630542
+    "modified": 1683805800
 }
