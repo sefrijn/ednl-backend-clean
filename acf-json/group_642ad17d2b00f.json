@@ -292,6 +292,27 @@
                     "placeholder": "",
                     "prepend": "",
                     "append": ""
+                },
+                {
+                    "key": "field_64629314cfe9f",
+                    "label": "Actief",
+                    "name": "actief",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "show_in_graphql": 1,
+                    "message": "",
+                    "default_value": 0,
+                    "ui_on_text": "",
+                    "ui_off_text": "",
+                    "ui": 1
                 }
             ]
         }
@@ -318,5 +339,5 @@
     "graphql_field_name": "acfOrganisatieGegevens",
     "map_graphql_types_from_location_rules": 0,
     "graphql_types": "",
-    "modified": 1683805800
+    "modified": 1684181810
 }
